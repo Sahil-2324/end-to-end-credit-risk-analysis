@@ -1,7 +1,7 @@
 # Credit Risk Analysis Project  
 
 ## 📌 Overview  
-This project demonstrates an **end-to-end Credit Risk Analysis workflow** using **SQL, Python, and Tableau**.  
+This project demonstrates an **end-to-end Credit Risk Analysis workflow** using **SQL, Python, and Tableau**. 
 The main objective is to clean and transform raw credit data, generate insights through exploratory plots, and present key findings in an interactive Tableau dashboard.  
 
 ---
@@ -17,19 +17,19 @@ The main objective is to clean and transform raw credit data, generate insights 
 credit-risk-project/
 │
 ├── sql/ # SQL scripts
-│ └── full_pipeline.sql
+│ └── Credit_risk_management_full_pipeline
 │
 ├── python/ # Python EDA & plots
-│ ├── eda_plots.ipynb
-│ └── requirements.txt
+│ ├── eda_plots
+│ └── requirements
 │
 ├── tableau/ # Tableau dashboards
-│ ├── dashboard_screenshot
-│ └── tableau_public_link.txt
+│ ├── dashboard
+│ └── tableau_public_link
 │
 ├── data/ # Sample datasets
-  ├── credit_data_raw.csv
-  └── credit_data_clean.csv
+  ├── credit_data_raw
+  └── credit_data_clean
 
 ---
 
