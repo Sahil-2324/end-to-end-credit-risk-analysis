@@ -17,19 +17,19 @@ The main objective is to clean and transform raw credit data, generate insights 
 credit-risk-project/
 │
 ├── sql/ # SQL scripts
-│ └── Credit_risk_management_full_pipeline
+│ └── Credit_risk_management_full_pipeline.sql
 │
 ├── python/ # Python EDA & plots
-│ ├── eda_plots
-│ └── requirements
+│ ├── eda_plots.ipynb
+│ └── requirements.txt
 │
 ├── tableau/ # Tableau dashboards
-│ ├── dashboard
+│ ├── dashboard.png
 │ └── tableau_public_link
 │
 ├── data/ # Sample datasets
-| ├── credit_data_raw
-| └── credit_data_clean
+| ├── credit_data_raw.csv
+| └── credit_data_clean.csv
 |
 ├── README.md  
 
@@ -41,7 +41,7 @@ All raw data was imported into MySQL and transformed using one **end-to-end pipe
 - Feature Engineering (age groups, income buckets, debt ratio buckets)  
 - Risk Summary Table  
 
-➡️ SQL Script: [`Credit_risk_management_full_pipeline`](sql/Credit_risk_management_full_pipeline)  
+➡️ SQL Script: [`Credit_risk_management_full_pipeline.sql`](sql/Credit_risk_management_full_pipeline.sql)  
 
 ---
 
@@ -52,7 +52,7 @@ Python was used for simple EDA and plotting:
 - Debt Ratio vs Default Rate  
 - Risk category bar charts  
 
-➡️ Notebook: [`eda_plots`](python/eda_plots)  
+➡️ Notebook: [`eda_plots.ipynb`](python/eda_plots.ipynb)  
 
 ---
 
@@ -69,7 +69,7 @@ The final findings were presented in an interactive Tableau dashboard:
 - **Risk_Score vs IncomeGroup**
 
 📊 Dashboard Screenshot:  
-![Dashboard](tableau/dashboard)  
+![Dashboard](tableau/dashboard.png)  
 
 🌐 Tableau Public Link: [Click Here]([your_tableau_link_here](https://public.tableau.com/views/CustomerCreditRiskAnalysisDefaultProbabilityInsights/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link))  
 
@@ -78,11 +78,11 @@ The final findings were presented in an interactive Tableau dashboard:
 ## 🚀 How to Run  
 1. Import the dataset into MySQL and run:  
    ```sql
-   SOURCE sql/Credit_risk_management_full_pipeline;
+   SOURCE sql/Credit_risk_management_full_pipeline.sql;
    
 2. Run Python notebook for EDA plots:
-pip install -r python/requirements
-jupyter notebook python/eda_plots
+pip install -r python/requirements.txt
+jupyter notebook python/eda_plots.ipynb
 
 3. Open Tableau dashboard locally or view the published version.
 
