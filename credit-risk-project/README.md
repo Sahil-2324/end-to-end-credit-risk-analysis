@@ -39,7 +39,7 @@ All raw data was imported into MySQL and transformed using one **end-to-end pipe
 - Feature Engineering (age groups, income buckets, debt ratio buckets)  
 - Risk Summary Table  
 
-➡️ SQL Script: [`full_pipeline.sql`](sql/full_pipeline.sql)  
+➡️ SQL Script: [`Credit_risk_management_full_pipeline`](sql/Credit_risk_management_full_pipeline)  
 
 ---
 
@@ -50,7 +50,7 @@ Python was used for simple EDA and plotting:
 - Debt Ratio vs Default Rate  
 - Risk category bar charts  
 
-➡️ Notebook: [`eda_plots.ipynb`](python/eda_plots.ipynb)  
+➡️ Notebook: [`eda_plots`](python/eda_plots)  
 
 ---
 
@@ -76,11 +76,11 @@ The final findings were presented in an interactive Tableau dashboard:
 ## 🚀 How to Run  
 1. Import the dataset into MySQL and run:  
    ```sql
-   SOURCE sql/full_pipeline.sql;
+   SOURCE sql/Credit_risk_management_full_pipeline;
    
 2. Run Python notebook for EDA plots:
-pip install -r python/requirements.txt
-jupyter notebook python/eda_plots.ipynb
+pip install -r python/requirements
+jupyter notebook python/eda_plots
 
 3. Open Tableau dashboard locally or view the published version.
 
