@@ -41,7 +41,7 @@ All raw data was imported into MySQL and transformed using one **end-to-end pipe
 - Feature Engineering (age groups, income buckets, debt ratio buckets)  
 - Risk Summary Table  
 
-➡️ SQL Script: [`Credit_risk_management_full_pipeline.sql`](sql/Credit_risk_management_full_pipeline.sql)  
+➡️ SQL Script: [`Credit_risk_management_full_pipeline.sql`](SQL/Credit_risk_management_full_pipeline.sql)  
 
 ---
 
@@ -52,7 +52,7 @@ Python was used for simple EDA and plotting:
 - Debt Ratio vs Default Rate  
 - Risk category bar charts  
 
-➡️ Notebook: [`eda_plots.ipynb`](python/eda_plots.ipynb)  
+➡️ Notebook: [`eda_plots.ipynb`](Python/eda_plots.ipynb)  
 
 ---
 
