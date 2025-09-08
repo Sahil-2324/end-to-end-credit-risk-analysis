@@ -16,20 +16,20 @@ The main objective is to clean and transform raw credit data, generate insights 
 ## 📂 Project Structure  
 credit-risk-project/
 │
-├── sql/ # SQL scripts
+├── SQL/ # SQL scripts
 │ └── Credit_risk_management_full_pipeline.sql
 │
-├── python/ # Python EDA & plots
+├── Python/ # Python EDA & plots
 │ ├── eda_plots.ipynb
 │ └── requirements.txt
 │
-├── tableau/ # Tableau dashboards
-│ ├── dashboard.png
-│ └── tableau_public_link
+├── Tableau/ # Tableau dashboards
+│ ├── Dashboard.png
+│ └── Tableau_Public_link.txt
 │
-├── data/ # Sample datasets
+├── Data/ # Sample datasets
 | ├── credit_data_raw.csv
-| └── credit_data_clean.csv
+| └── credit_data_cleaned.csv
 |
 ├── README.md  
 
@@ -69,7 +69,7 @@ The final findings were presented in an interactive Tableau dashboard:
 - **Risk_Score vs IncomeGroup**
 
 📊 Dashboard Screenshot:  
-![Dashboard](tableau/dashboard.png)  
+![Dashboard](Tableau/Dashboard.png)  
 
 🌐 Tableau Public Link: [Click Here]([your_tableau_link_here](https://public.tableau.com/views/CustomerCreditRiskAnalysisDefaultProbabilityInsights/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link))  
 
@@ -78,7 +78,7 @@ The final findings were presented in an interactive Tableau dashboard:
 ## 🚀 How to Run  
 1. Import the dataset into MySQL and run:  
    ```sql
-   SOURCE sql/Credit_risk_management_full_pipeline.sql;
+   SOURCE SQL/Credit_risk_management_full_pipeline.sql;
    
 2. Run Python notebook for EDA plots:
 pip install -r python/requirements.txt
