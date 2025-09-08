@@ -28,10 +28,8 @@ credit-risk-project/
 │ └── tableau_public_link.txt
 │
 ├── data/ # Sample datasets
-│ ├── credit_data_raw.csv
-│ └── credit_data_clean.csv
-│
-└── README.md
+  ├── credit_data_raw.csv
+  └── credit_data_clean.csv
 
 ---
 
